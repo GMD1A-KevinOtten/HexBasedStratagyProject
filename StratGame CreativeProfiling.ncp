@@ -1,0 +1,89 @@
+<Project>
+  <Name>StratGame CreativeProfiling</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>game</Name>
+    <Language>Java</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>BaseHex</Name>
+        <Access>Public</Access>
+        <Location left="39" top="19" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">private void Start()</Member>
+        <Member type="Method">void OnMouseOver()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>HexInfo</Name>
+        <Access>Public</Access>
+        <Location left="39" top="265" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">private void Start()</Member>
+        <Member type="Method">void OnMouseEnter()</Member>
+        <Member type="Method">void OnMouseOver()</Member>
+        <Member type="Method">void OnMouseExit()</Member>
+        <Member type="Method">public void ProcesUnit(Gameobject newUnit)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UnitsInfo</Name>
+        <Access>Public</Access>
+        <Location left="39" top="1295" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">private void Start()</Member>
+        <Member type="Method">void OnMouseEnter()</Member>
+        <Member type="Method">void OnMouseOver()</Member>
+        <Member type="Method">void OnMouseExit()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CameraController</Name>
+        <Access>Public</Access>
+        <Location left="39" top="1047" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Update()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Spawner</Name>
+        <Access>Public</Access>
+        <Location left="39" top="770" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void SpawnGarission()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>UIManager</Name>
+        <Access>Public</Access>
+        <Location left="39" top="511" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Update()</Member>
+        <Member type="Method">public void TilePopup()</Member>
+        <Member type="Method">public void UnitPopup()</Member>
+        <Member type="Method">public void TurnOnBuyPannel()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Garrision</Name>
+        <Access>Public</Access>
+        <Location left="331" top="1295" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Start()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Dependency" first="2" second="6">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
