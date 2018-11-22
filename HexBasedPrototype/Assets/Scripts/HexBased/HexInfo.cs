@@ -28,7 +28,6 @@ public class HexInfo : MonoBehaviour {
     private MovementManager mm;
     public UIManager ui;
     public GameObject myUnit;
-    
 
     void Start()
     {
